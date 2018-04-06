@@ -19,8 +19,8 @@ defmodule Sidewalk.Job do
     jid: "",
     class: "",
     args: [],
-    created_at: 0,
-    enqueued_at: 0,
+    created_at: 0.0,
+    enqueued_at: 0.0,
     queue: "default",
     retry: true,
     wrapped: ""
